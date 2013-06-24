@@ -1,4 +1,3 @@
-
 title "hangman"
                               
 ; Use this part only for debbugging
@@ -184,7 +183,7 @@ lea si, msg ;Passing the message pointer into the SI registrar
     popa
     ret  
     
-msg db 'Enjoy u dumbas :p', 0
+msg db 'Enjoy', 0
  
   
   num_quest db "enter a number between 0 and 10: ", 0
